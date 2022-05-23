@@ -2,7 +2,6 @@
 " Language: Jakt
 " Latest Revision: 2022-05-21
 
-if exists("b:current_syntax")
   finish
 endif
 
@@ -32,9 +31,6 @@ let s:jakt_syntax_keywords = {
     \ , 'jaktOperator': ["not"
     \ ,                 "and"
     \ ,                 "or"]
-    \ , 'jaktVarDecl': ["mutable"
-    \ ,                 "let"
-    \ ,                 "anonymous"
     \ ,                 "raw"]
     \ , 'jaktType': ["String"
     \ ,             "i8"
